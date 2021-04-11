@@ -1,0 +1,226 @@
+
+.header {
+    display: block;
+    background-color: wheat;
+    height: 550px;
+    width: 800px;
+    border-bottom-right-radius: 400px;
+    border-bottom-left-radius: 400px;
+    top: 0;
+    margin-top: -300px;
+    text-align: center; 
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+    background-image: url(sterne.png); 
+    
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left:-1000px;
+    text-align: right;
+    padding-right: 130px;
+    display: block;
+    border-style: solid;
+    background-color: brown;
+    border-color:brown ;
+    border-width: 10px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+    width: 500px;
+}
+
+#memeshead {
+    width: 400px;
+    margin-left: -680px;
+}
+
+#lust {
+    width: 400px;
+    margin-left: 0px;
+}
+
+#zweiteUES {
+    margin-left: -680px;
+}
+
+
+#nav {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    overflow: hidden;
+    background-color: wheat;
+    margin-left: 555px;
+    padding: 20px 20px 20px 20px;
+    position: fixed;
+    top: 0;
+    width: fit-content;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-style:solid;
+    border-color: brown;
+    text-decoration: none;
+    margin-left: 1000px;
+}
+.navigation {
+    color: gray;
+}
+
+a:hover {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+#portfolio {
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+
+#ueberschrift {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 50px;
+    padding-top: 300px;
+    color: brown;
+    font-size: 75px;
+
+}
+#name {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 180px;
+    margin-top: -60px;
+}   
+
+#memes {
+    margin-top: -33px;
+
+}
+#bear {
+    width: 500px;
+    margin-top: -33px;
+    margin-left: -680px;
+}
+
+#leo {
+    width: 275px;
+}
+
+
+
+#demo {
+    width:652px;
+    margin-right: -500px;
+}
+
+#bruce {
+    width: 312px;
+    margin-left: 497px;
+    margin-right: -900px;
+}
+
+#dog1 {
+    width: 204px;
+    margin-left: 900px;
+    margin-right: -900px;
+}
+#dog2 {
+    width: 208px;
+    margin-left: 900px;
+    margin-right: -900px;
+}
+
+#baby1 {
+    width: 534px;
+    margin-top: -33px;
+    margin-left: -680px;
+}
+
+#muscmeme {
+    margin-right: -1200px;
+}
+
+#videos {
+    width: max-content;
+    margin-left: -678px;
+    margin-top: -33px;
+    
+}
+
+    
+
+
+#hallo {
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.content {
+    margin-left: -100px;
+}
+
+#text {
+    text-align: left;
+    justify-content:center;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 29px;
+    background-color: white;
+    margin-top: -896px;
+    margin-left: 539px;
+    padding: 10px;
+    padding-left: 30px ;
+
+}
+p {
+    margin-top: -25px;
+    
+}
+
+h3 {
+    margin-top: 60px;
+}
+
+h4 {
+    margin-top: -5px;
+}
+
+.formular {
+    margin-top: -20px;
+}
+
+#nachricht {
+    
+    justify-content: left;
+    text-align: left;
+    width: 500px;
+    height: 200px;
+    padding: 0%;
+}
+
+#form {
+    font-size: 10px;
+    width: 60px;
+}
