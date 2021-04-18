@@ -1,0 +1,105 @@
+body {
+    width: 1600px;
+    text-align: center;
+    position: fixed;
+    background-image: url(BG.png);
+    background-repeat:none;
+    background-size: 130%;
+    background-position-y: -200px;
+    background-position-x: -80px ;
+    background-color: gray;
+    
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+main {
+    position: fixed;
+    width: 100%;
+}
+.ueberschrift {
+
+    text-shadow:white;
+    text-align: center;
+    position: fixed;
+    margin-left: -210px;
+    margin-top: -75px;
+    left: 50%;
+    top: 50%;
+    
+    }
+
+h1 {
+    
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 56px;
+}
+
+p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+#eintritt {
+    text-align: center;
+    margin-top: -115px;
+    margin-left: 340px;
+}
+
+#play:hover {
+    transform: scale(1.1);
+}
+#play {
+    width: 100px;
+    
+}
+
+.sm {
+    justify-content: center;
+}
+
+#insta {
+    width: 30px;
+    filter: brightness(50%);
+}
+
+#fb {
+    width: 30px ;
+    padding-left: 10px;
+    filter: brightness(50%);
+}    
+
+#twitter {
+    width: 30px;
+    padding-left: 10px;
+    filter: brightness(50%);
+
+}
+.links {
+    text-align: center;
+    padding-left: 10px;
+    position: fixed;
+    margin-left: -45px;
+    margin-top: 60px;
+    left: 50%;
+    top: 50%;
+}
+
+#fb:hover{
+    filter: brightness(100%);
+}
+
+#insta:hover{
+    filter: brightness(100%);
+}
+
+#twitter:hover{
+    filter: brightness(100%);
+}
