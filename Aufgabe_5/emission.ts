@@ -23,7 +23,7 @@ var Asia_18: number = 16274.1;
 var Australia_08: number = 1993;
 var Australia_18: number = 2100.5;
 
-var Ges_2018: number = Africa_18 +  SouthAmerica_18 + Europa_18 NorthAmerika_18 + Asia_18 + Australia_18;
+var Ges_2018: number = Africa_18 +  SouthAmerica_18 + Europa_18 + NorthAmerika_18 + Asia_18 + Australia_18;
  
 console.log('Die Emission von ' + Kontinent_Afrika + ' ist: ' + Africa_18 + ' kg CO2');
 console.log('Die Emission von ' + Kontinent_SouthAmerika + ' ist: ' + SouthAmerica_18 + ' kg CO2');
@@ -32,12 +32,12 @@ console.log('Die Emission von ' + Kontinent_NorthAmerika + ' ist: ' + NorthAmeri
 console.log('Die Emission von ' + Kontinent_Asia + ' ist: ' + Asia_18 + ' kg CO2');
 console.log('Die Emission von ' + Kontinent_Australia + ' ist: ' + Australia_18 + ' kg CO2');
 
-console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_Afrika + ' damit ' + Africa_18*100/Ges_2018 + ' %');
-console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_SouthAmerika + ' damit ' + SouthAmerica_18*100/Ges_2018 + ' %');
-console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_Europa + ' damit ' + Europa_18*100/Ges_2018 + ' %');
-console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_NorthAmerika + ' damit ' + NorthAmerika_18*100/Ges_2018 + ' %');
-console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_Asia + ' damit ' + Asia_18*100/Ges_2018 + ' %');
-console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_Australia + ' damit ' + Australia_18*100/Ges_2018 + ' %');
+console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_Afrika + ' damit ' + (Africa_18 * 100/ Ges_2018) + ' %');
+console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_SouthAmerika + ' damit ' + SouthAmerica_18 * 100/Ges_2018 + ' %');
+console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_Europa + ' damit ' + Europa_18 * 100/Ges_2018 + ' %');
+console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_NorthAmerika + ' damit ' + NorthAmerika_18 * 100/Ges_2018 + ' %');
+console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_Asia + ' damit ' + Asia_18 * 100/Ges_2018 + ' %');
+console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_Australia + ' damit ' + Australia_18 * 100/Ges_2018 + ' %');
 
 
 console.log('Für ' + Kontinent_Afrika + ' hat sich 2018 im Vergleich zu 2008 die Emmission um ' + (Africa_18-Africa_08)/Africa_08*100 + ' % verändert');
