@@ -23,7 +23,7 @@ console.log('Die Emission von ' + Kontinent_Europa + ' ist: ' + Europa_18 + ' kg
 console.log('Die Emission von ' + Kontinent_NorthAmerika + ' ist: ' + NorthAmerika_18 + ' kg CO2');
 console.log('Die Emission von ' + Kontinent_Asia + ' ist: ' + Asia_18 + ' kg CO2');
 console.log('Die Emission von ' + Kontinent_Australia + ' ist: ' + Australia_18 + ' kg CO2');
-console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_Afrika + ' damit ' + (Africa_18 * 100 / Ges_2018 + ' %'));
+console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_Afrika + ' damit ' + Africa_18 * 100 / Ges_2018 + ' %');
 console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_SouthAmerika + ' damit ' + SouthAmerica_18 * 100 / Ges_2018 + ' %');
 console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_Europa + ' damit ' + Europa_18 * 100 / Ges_2018 + ' %');
 console.log('Relativ zur Gesamtemission der Welt verursacht ' + Kontinent_NorthAmerika + ' damit ' + NorthAmerika_18 * 100 / Ges_2018 + ' %');
