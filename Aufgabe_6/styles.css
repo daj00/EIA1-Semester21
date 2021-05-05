@@ -5,7 +5,7 @@ html, body {
     height: 100%;
     padding: 0;
     overflow: hidden;
-    background-image: radial-gradient(circle 100vw at left top,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.5) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(247,105,6,.25) 0,rgba(247,105,6,0) 100%),radial-gradient(circle 100vw at left center,rgba(28,222,126,.2) 0,rgba(28,222,126,0) 100%),radial-gradient(circle 100vw at right center,rgba(0,136,160,.4) 0,rgba(0,136,160,0) 100%);
+    background-color: rgb(66, 49, 38);
 }
 
 nav {
@@ -18,7 +18,7 @@ section {
     width: 200px;
 }
 
-.graphWrapper {
+.chartWrapper {
     position: relative;
     display: inline-block;
     width: 50px;
@@ -28,7 +28,7 @@ section {
   
 }
 
-.graphWrapper #graph {
+.chartWrapper #chart {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -42,53 +42,39 @@ footer p {
     font-size: 10px;
     opacity: .5;
 }
-
-#eu {
+.Kon_Europa{
     filter: brightness(50%);
 }
-
-#eu:hover {
+.Kon_Europa:hover{
     filter: brightness(100%);
 }
-
-#na {
+.Kon_Northamerica{
     filter: brightness(50%);
 }
-
-#na:hover {
+.Kon_Northamerica:hover{
     filter: brightness(100%);
 }
-
-#sa {
+.Kon_Southamerica{
     filter: brightness(50%);
 }
-
-#sa:hover {
+.Kon_Southamerica:hover{
     filter: brightness(100%);
 }
-
-#af {
+.Kon_Africa{
     filter: brightness(50%);
 }
-
-#af:hover {
+.Kon_Africa:hover{
     filter: brightness(100%);
 }
-
-#as {
+.Kon_Asia{
     filter: brightness(50%);
 }
-
-#as:hover {
+.Kon_Asia:hover{
     filter: brightness(100%);
 }
-
-#au {
+.Kon_Australia{
     filter: brightness(50%);
 }
-
-#au:hover {
+.Kon_Australia:hover{
     filter: brightness(100%);
 }
-
-
