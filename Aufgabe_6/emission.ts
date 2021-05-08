@@ -110,37 +110,3 @@ document.getElementById("au").addEventListener("click", function(){
     document.getElementById("graph").setAttribute('style', 'height:' + (australia_18*100/ges_2018) + '%');
 })
 */
-
-
-
-
-//Konsole
-console.log('Die Emission von ' + (kontinent_Afrika + ' ist: ' + africa_18) + ' kg CO2');
-console.log('Die Emission von ' + kontinent_SouthAmerika + ' ist: ' + southAmerica_18 + ' kg CO2');
-console.log('Die Emission von ' + kontinent_Europa + ' ist: ' + europa_18 + ' kg CO2');
-console.log('Die Emission von ' + kontinent_NorthAmerika + ' ist: ' + northAmerika_18 + ' kg CO2');
-console.log('Die Emission von ' + kontinent_Asia + ' ist: ' + asia_18 + ' kg CO2');
-console.log('Die Emission von ' + kontinent_Australia + ' ist: ' + australia_18 + ' kg CO2');
-
-console.log('Relativ zur Gesamtemission der Welt verursacht ' + kontinent_Afrika + ' damit ' + africa_18 * 100/ ges_2018 + ' %');
-console.log('Relativ zur Gesamtemission der Welt verursacht ' + kontinent_SouthAmerika + ' damit ' + southAmerica_18 * 100/ges_2018 + ' %');
-console.log('Relativ zur Gesamtemission der Welt verursacht ' + kontinent_Europa + ' damit ' + europa_18 * 100/ges_2018 + ' %');
-console.log('Relativ zur Gesamtemission der Welt verursacht ' + kontinent_NorthAmerika + ' damit ' + northAmerika_18 * 100/ges_2018 + ' %');
-console.log('Relativ zur Gesamtemission der Welt verursacht ' + kontinent_Asia + ' damit ' + asia_18 * 100/ges_2018 + ' %');
-console.log('Relativ zur Gesamtemission der Welt verursacht ' + kontinent_Australia + ' damit ' + australia_18 * 100/ges_2018 + ' %');
-
-
-console.log('Für ' + kontinent_Afrika + ' hat sich 2018 im Vergleich zu 2008 die Emmission um ' + (africa_18-Africa_08)/africa_08*100 + ' % verändert');
-console.log('Für ' + kontinent_SouthAmerika + ' hat sich 2018 im Vergleich zu 2008 die Emmission um ' + (southAmerica_18-southAmerica_08)/southAmerica_08*100 + ' % verändert');
-console.log('Für ' + kontinent_Europa + ' hat sich 2018 im Vergleich zu 2008 die Emmission um ' + (europa_18-Europa_08)/europa_08*100 + ' % verändert');
-console.log('Für ' + kontinent_NorthAmerika + ' hat sich 2018 im Vergleich zu 2008 die Emmission um ' + (northAmerika_18-northAmerika_08)/northAmerika_08*100 + ' % verändert');
-console.log('Für ' + kontinent_Asia + ' hat sich 2018 im Vergleich zu 2008 die Emmission um ' + (asia_18-Asia_08)/asia_08*100 + ' % verändert');
-console.log('Für ' + kontinent_Australia + ' hat sich 2018 im Vergleich zu 2008 die Emmission um ' + (australia_18-australia_08)/australia_08*100 + ' % verändert');
-
-
-console.log('2018 im Vergleich zu 2008 sind das in ' + kontinent_Afrika + ' ' + (africa_18-africa_08) + ' kg CO2');
-console.log('2018 im Vergleich zu 2008 sind das in ' + kontinent_SouthAmerika + ' ' + (southAmerica_18-southAmerica_08) + ' kg CO2');
-console.log('2018 im Vergleich zu 2008 sind das in ' + kontinent_Europa + ' ' + (europa_18-europa_08) + ' kg CO2');
-console.log('2018 im Vergleich zu 2008 sind das in ' + kontinent_NorthAmerika + ' ' + (northAmerika_18-northAmerika_08) + ' kg CO2');
-console.log('2018 im Vergleich zu 2008 sind das in ' + kontinent_Asia + ' ' + (asia_18-Asia_08) + ' kg CO2');
-console.log('2018 im Vergleich zu 2008 sind das in ' + kontinent_Australia + ' ' + (australia_18-australia_08) + ' kg CO2');

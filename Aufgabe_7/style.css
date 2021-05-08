@@ -1,0 +1,95 @@
+body {
+    background-color: #c08a42;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:40px;
+    color: #ffffff;
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#playButton {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#play:hover {
+    transform: scale(1.2);
+}
+
+#lOben {
+    width: 150px;
+    height: 150px;
+    background-color: #de8a87;
+    border-radius: 7%;
+}
+
+
+
+#mOben {
+    width: 150px;
+    height: 150px;
+    background-color: #db5854;
+    border-radius: 7%;
+}
+
+#rOben {
+    width: 150px;
+    height: 150px;
+    background-color: #d83630;
+    border-radius: 7%;
+}
+
+#lMitte {
+    width: 150px;
+    height: 150px;
+    background-color: #879ede;
+    border-radius: 7%;
+}
+
+#mMitte {
+    width: 150px;
+    height: 150px;
+    background-color: #466dd8;
+    border-radius: 7%;
+}
+
+#rMitte {
+    width: 150px;
+    height: 150px;
+    background-color: #0b41d6;
+    border-radius: 7%;
+}
+
+#lUnten {
+    width: 150px;
+    height: 150px;
+    background-color: #7ac381;
+    border-radius: 7%;
+}
+
+#mUnten {
+    width: 150px;
+    height: 150px;
+    background-color: #43c450;
+    border-radius: 7%;
+}
+
+#rUnten {
+    width: 150px;
+    height: 150px;
+    background-color: #0ac71d;
+    border-radius: 7%;
+}
