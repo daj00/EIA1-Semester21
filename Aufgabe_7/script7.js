@@ -18,19 +18,18 @@ window.addEventListener("load", function () {
     document.querySelector("#playButton").addEventListener("click", function () { beat(); });
 });
 function beat() {
-    for (var i = 0; i < 4; i++) { //Versuch einer Schleife. 
-        setTimeout(function () {
-            playSample(drumMachine[5]);
-        }, 500);
-        setTimeout(function () {
-            playSample(drumMachine[4]);
-        }, 1000);
-        setTimeout(function () {
-            playSample(drumMachine[8]);
-        }, 1500);
-        setTimeout(function () {
-            playSample(drumMachine[4]);
-        }, 2000);
-    }
+    //for (let i= 0; i < 4; i++) {   //Versuch einer Schleife. 
+    setTimeout(function () {
+        playSample(drumMachine[5]);
+    }, 500);
+    setTimeout(function () {
+        playSample(drumMachine[4]);
+    }, 1000);
+    setTimeout(function () {
+        playSample(drumMachine[8]);
+    }, 1500);
+    setTimeout(function () {
+        playSample(drumMachine[4]);
+    }, 2000);
 }
 //# sourceMappingURL=script7.js.map
